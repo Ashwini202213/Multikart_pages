@@ -1,0 +1,112 @@
+
+/* want to add color to prev and next black not working */
+a span{
+ color: #000;
+
+}
+.slide-title{
+    font-size: 60px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.slide-p{
+    letter-spacing: 6px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.btn-shopnow{
+    background-color:#3e5067;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+    
+}
+.btn-shopnow:hover{
+    background-color:#fff;
+    color: #3e5067;
+    border:2px solid #3e5067;
+}
+
+.slide-2{
+ margin-right: 360px; 
+font-size: 40px;
+
+}
+
+/* section 2 - 4 images in row */
+
+.banner-furniture {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.banner-padding {
+    padding-top: 30px;
+}
+.collection-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.text-end {
+    text-align: right !important;
+}
+a, a:hover {
+    transition: .5s ease;
+    text-decoration: none;
+}
+.collection-banner img {
+    transition: all .5s ease;
+    width: 100%;
+}
+img {
+    overflow-clip-margin:content-box;
+    overflow: clip;
+}
+
+.collection-banner .contain-banner .banner-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.collection-banner.p-right .contain-banner {
+    justify-content: flex-end;
+}
+
+.collection-banner .contain-banner {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.collection-banner .contain-banner h4{
+    color: #3e5067;
+}
+
+.text1{
+    display: block;
+   
+}
+
+/* title top- collection starts here */
+.title-collection{
+    margin-top: 70px;
+    text-align: center;
+}
+.title-collection h2{
+    font-size: 600;
+    letter-spacing:2px;
+    text-transform:uppercase;
+}
+.title-collection hr{
+    width: 40px;
+    align-items: center;
+    text-align: center;
+
+}
+.product-para{
+    margin-left: 30px;
+}
